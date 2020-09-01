@@ -5,6 +5,10 @@
     flex-direction: column;
     flex:0.35;
 }
+
+@media(max-width:480px){
+    
+}
 .sidebar__header{
     display: flex;
     justify-content: space-between;
