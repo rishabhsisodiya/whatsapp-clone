@@ -26,13 +26,22 @@
 }
 
 @media (max-width: 480px) {
-  
-  .chat__headerInfo > h3 {
+
+  /* .chat__headerInfo > h3 {
     font-size: 2vmin;
   }
 
   .chat__headerInfo > p {
     font-size: 1vmin;
+  } */
+  .chat__headerInfo{
+    font-size: small;
+  }
+  .chat__headerRight{
+    min-width: 0px !important;
+  }
+  .chat__headerRight button{
+    width: 0px;
   }
   
 }
